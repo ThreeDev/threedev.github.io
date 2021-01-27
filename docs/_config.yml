@@ -1,1 +1,11 @@
-theme: jekyll-theme-hacker
+
+title: Three Dev, LLC
+description:
+
+show_downloads: false
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
