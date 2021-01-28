@@ -1,11 +1,19 @@
 
+logo: assets/images/threedev_64x64.png
 title: Three Dev, LLC
-description:
+description: Helping Java Developers remodel Java
 
 show_downloads: false
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 markdown: kramdown
 plugins:
   - jekyll-feed
+
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+social:
+  type: Organization # Person or Organization (defaults to Person)
+  name: Three Dev, LLC # If the user or organization name differs from the site's name
+  links:
+    - "https://startups.threedev.io"

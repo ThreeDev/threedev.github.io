@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+$text-color: rgb(55, 78, 89);
+$primary-color: rgb(223, 81, 65) !default;
+$link-color: rgb(223, 81, 65) !default;
+$masthead-link-color: rgb(223, 81, 65);
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#fff, $masthead-link-color, 25%) !default;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
