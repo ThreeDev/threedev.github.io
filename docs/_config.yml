@@ -11,7 +11,7 @@ plugins:
   - jekyll-feed
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-include: ["_pages"]
+include: ["CNAME", "_pages"]
 
 after_footer_scripts:
   - /assets/js/jqBootstrapValidation.js
