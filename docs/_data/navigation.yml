@@ -1,5 +1,5 @@
 main:
-  - title: "Services"
+#  - title: "Services"
 #    url: /services
   - title: "Blog"
-#    url: /blog
+    url: /blog

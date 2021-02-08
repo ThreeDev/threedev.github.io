@@ -11,5 +11,14 @@ $masthead-link-color: rgb(223, 81, 65);
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#fff, $masthead-link-color, 25%) !default;
 
+.text-primary {
+  color: $primary-color;
+}
+
+.archive__item-body {
+  width: 100%;
+  text-align: center;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

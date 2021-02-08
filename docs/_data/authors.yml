@@ -1,0 +1,14 @@
+Mike Dougherty:
+  name        : "Mike Dougherty"
+  bio         : "Code Whisperer and Remodeler"
+#  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:MikeDougherty@threedev.io"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://threedev.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mdougherty"

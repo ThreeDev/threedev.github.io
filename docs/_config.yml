@@ -11,9 +11,43 @@ plugins:
   - jekyll-feed
 
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+include: ["_pages"]
+
+after_footer_scripts:
+  - /assets/js/jqBootstrapValidation.js
+  - /assets/js/contact_me.js
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      permalink: /blog/:year/:month/:day/:title
 
 social:
   type: Organization # Person or Organization (defaults to Person)
   name: Three Dev, LLC # If the user or organization name differs from the site's name
   links:
     - "https://startups.threedev.io"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter fa-inverse"
+      url: https://twitter.com/mdougherty
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/doughertym
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: https://bitbucket.org/threedev/
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: https://www.youtube.com/channel/UC8Ox6oXyAAaXHPbV_vXVmbA
